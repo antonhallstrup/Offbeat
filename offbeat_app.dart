@@ -37,7 +37,7 @@ class _MapHomeState extends State<MapHome> {
   late GoogleMapController mapController;
   final TextEditingController _searchController = TextEditingController();
   LatLng _position = const LatLng(51.4416, 5.4697); // Eindhoven
-  static const String apiKey = "AIzaSyCudhvWGb4zv_WWWMyd5cAg7cT8xYD4Ink";
+  static const String apiKey = "GOOGLE_MAPS_API_KEY";
 
   BluetoothDevice? _nanoDevice;
   BluetoothCharacteristic? _writeChar;
